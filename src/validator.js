@@ -27,6 +27,7 @@ const validator = {
 
   maskify: (creditCardNumber) => {
     //console.log(creditCardNumber);
+    
     const visibles = 4; //de mi cifra de 12 números, requiero dejar visibles los últimos 4 números
     const numeros = creditCardNumber.slice(0, -visibles).replace(/./g, "#"); //que esos 8 primeros se reemplacen por #
     const ultimos = creditCardNumber.slice(-visibles); // que los últimos sean visibles
