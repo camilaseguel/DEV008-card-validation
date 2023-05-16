@@ -1,0 +1,62 @@
+body{
+    background-image: url(imagenes/fondo.jpg);
+    background-size: 100% 100%;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+header h1{
+    font-size: 80px;
+    font-weight: 800;
+    color: indigo;
+    text-align: center;
+    height: 100px;
+    width: 100%;  
+}
+
+image{
+    height: 150px;
+    width: 150px;
+}    
+
+form{
+    border: 5px solid lightslategray;
+   
+}
+
+.form-central{
+    background-color: whitesmoke;
+    font-size: 30px;
+    display: inline-flex;
+    justify-content: center;
+
+     
+}
+
+form button{
+    background-color: darkorange;
+    border: 5px solid orange;
+    padding: 25px;
+    font-size: 30px;
+
+}
+
+span h3{
+    font-size: 40px;
+    font-weight: 50;
+    font-style: unset;
+    color:darkslateblue;
+
+}
+
+span h2{
+    font-size: 50px;
+    font-weight: 300;
+    color: crimson;
+}
+
+footer{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+

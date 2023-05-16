@@ -6,9 +6,55 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <header>
+      <img src="imagenes/CHEP.png">
+      <h1>¡LA DESPEDIDA!</h1>
+    </header>
+      <section class="contenedor">
+        <section class="main">
+          <h2>10/06/2023<br>Estadio Nacional 'Julio Martínez Prádanos'. Inicio del show 21:00</h2>
+          <br/>
+        </section>
+        <span>
+          <h3><b>CHANCHO EN PIEDRA</b>, la agrupación nacional, icono del funk-rock nacional, prepara un masivo concierto de despedida, luego de 29 años de trayectoria. Es por esto que en asociación con <b><i>Tarjeta CreditMasterplus</i></b>, se extiende 1 entrada doble de cortesía a sus clientes.
+          </h3>
+          <h2>¡CANJEA TU ENTRADA DOBLE!</h2> 
+            <p>BENEFICIO EXCLUSIVO PARA CLIENTES<b>CreditMasterplus</b></p>
+        </span>
+          <br/> 
+      </section>
+      <br/>
+      <hr/>
+        <div class="form-central">
+          <form>
+            <img src="imagenes/chanchoenpiedra.jpg">
+            <fieldset>
+              <label for="nombre">Nombre de cliente</label>
+              <input type="text" id="nombre" placeholder="Ingrese su nombre">
+              <br/><br/>
+              <label for="numerodetarjeta">Número de tarjeta</label>
+              <input type="text" id="ntarjeta"  maxlength="12" placeholder="ingrese número de tarjeta" 
+              oninput="this.value=this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g,'$1');">
+             <br/><br>
+              <label for="numerocvv">cvv</label>
+              <input type="text" id="nCvv" maxlength="3" placeholder="Ingrese su número cvv"
+              oninput="this.value=this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g,'$1');">
+              <br/><br/>
+              <button type="button" id="botondecanje"><strong>¡CANJEAR AHORA!</strong></button>
+             <br/><br/>
+            </fieldset> 
+          </form>
+        </div>
+      <hr/>
+      <br/>
+    <footer>
+      <strong>
+        <i>Bootcamp: Desarrollador Web.#Dev008-2023. Proyecto 1. Validación de Tarjeta de Crédito. Camila Seguel González. 
+        </i>
+      </strong>  
+    </footer>
     <script src="index.js" type="module"></script>
   </body>
 </html>
+
+
